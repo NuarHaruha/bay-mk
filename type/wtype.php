@@ -31,6 +31,16 @@ final class WTYPE
      * @var int
      */
 
+    const BONUS_PV              = 300;
+    const BONUS_BV              = 31;
+    const BONUS_RM              = 302;
+    const BONUS_CURRENCY        = 303;
+
+    const PENALTY_PV            = 400;
+    const PENALTY_BV            = 401;
+    const PENALTY_RM            = 402;
+    const PENALTY_CURRENCY      = 403;
+
     const TRANSFER_PV           = 500;
     const TRANSFER_BV           = 501;
     const TRANSFER_RM           = 502;
