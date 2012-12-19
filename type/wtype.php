@@ -62,7 +62,7 @@ final class WTYPE
      * uses for upgrading
      * @var string
      */
-    const DB_VERSION            = 1.1;
+    const DB_VERSION            = 1.2;
 
     /**
      * Database table
@@ -77,6 +77,16 @@ final class WTYPE
      */
     const NONCE_WALLET          = 0xe12;
     const NONCE_BONUS           = 0x14f;
+
+    /**
+     * e-wallet manager role
+     * @var string
+     */
+    const ROLE_MANAGER          = 'account_manager';
+
+    const ROLE_MANAGER_NAME     = 'Account Manager';
+
+    const MANAGER_CAP           = 'manage_ewallet';
 
     final private function __construct()
     {
