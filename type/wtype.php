@@ -32,7 +32,7 @@ final class WTYPE
      */
 
     const BONUS_PV              = 300;
-    const BONUS_BV              = 31;
+    const BONUS_BV              = 301;
     const BONUS_RM              = 302;
     const BONUS_CURRENCY        = 303;
 
