@@ -42,6 +42,12 @@ final class MKEY
     const TRANS_NOTES           = 'transaction_note';
 
     /**
+     * Primary Account Bank list
+     * @var string
+     */
+    const BANK_LIST             = 'ew_banks';
+
+    /**
      * DB table version meta keys
      * @var string
      */
