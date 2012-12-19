@@ -25,6 +25,8 @@ class PATHTYPE
 
     const URI_EW_RECEIPT            = '/wp-admin/admin.php?page=mc-ew&receipt=1&tid=%d&uid=%d&code=%d';
 
+    const URI_EW_BANK               = '/wp-admin/admin.php?page=mc-ew-settings&spanel=bank&aftersav1';
+
     final private function __construct()
     {
         throw new Exception( 'Enum and Subclasses cannot be instantiated.' );
