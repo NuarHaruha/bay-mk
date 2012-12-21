@@ -14,7 +14,8 @@
  */
 final class MKEY
 {
-    protected $version          = 1.0;
+    protected $version          = 1.1;
+
     /**
      * Transaction meta key store in *_usermeta
      *
@@ -52,4 +53,59 @@ final class MKEY
      * @var string
      */
     const OP_EWALLET_DB_VERSION = 'mc_ewallet_db_version';
+
+
+    /**
+     * -------------------------------------------------------------
+     * Products Custom Post Type Meta Keys
+     * -------------------------------------------------------------
+     */
+
+    /**
+     * Normal Members Price (West Malaysia)
+     * @var string
+     */
+    const P_PRICE               = 'price';
+
+    /**
+     * Normal Members Price (West Malaysia)
+     * @var string
+     */
+    const P_RETAIL_PRICE        = 'retail_price';
+
+    /**
+     * Sabah Sarawak Members Price (East Malaysia)
+     * @var string
+     */
+    const P_EAST_MY_PRICE       = 'sb_srwk_price';
+
+    /**
+     * Sabah Sarawak Members Retail Price (East Malaysia)
+     * @var string
+     */
+    const P_EAST_MY_RETAIL_PRICE= 'sb_srwk_price';
+
+    /**
+     * Product stock
+     * @var string
+     */
+    const P_STOCK               = 'stock';
+
+    /**
+     * Product Minimum stock
+     * @var string
+     */
+    const P_MIN_STOCK           = 'min_stock';
+
+    /**
+     * Product PV amount
+     * @var string
+     */
+    const P_PV                  = 'pv';
+
+    /**
+     * Product stock keeping unit (SKU)
+     * @var string
+     */
+    const P_SKU                 = 'sku';
 }

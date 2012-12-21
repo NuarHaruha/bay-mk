@@ -31,6 +31,8 @@ final class WTYPE
      * @var int
      */
 
+    const PURCHASE_PIN          = 200;
+
     const BONUS_PV              = 300;
     const BONUS_BV              = 301;
     const BONUS_RM              = 302;
